@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>History Search</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Search History</h2>
+      <label for="searchType">Search By:</label>
+      <select id="searchType">
+        <option value="date">Date</option>
+        <option value="day">Day</option>
+        <option value="time">Time Range</option>
+        <option value="topic">Topic</option>
+      </select>
+      <div id="searchFields"></div>
+      <button type="button" id="searchButton">Search</button>
+      <div id="results"></div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
